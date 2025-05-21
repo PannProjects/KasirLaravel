@@ -1,0 +1,62 @@
+:root {
+    --dark-gray: #292929;
+    --sage-green: #5b7876;
+    --light-sage: #8f9e8b;
+    --cream: #f2e6b6;
+    --brown: #412a22;
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--dark-gray);
+}
+
+.navbar {
+    background-color: var(--dark-gray) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--cream) !important;
+}
+
+.btn-primary {
+    background-color: var(--sage-green) !important;
+    border-color: var(--sage-green) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--light-sage) !important;
+    border-color: var(--light-sage) !important;
+}
+
+.card {
+    border-color: var(--brown);
+}
+
+.card-header {
+    background-color: var(--light-sage);
+    color: var(--dark-gray);
+}
+
+.table thead {
+    background-color: var(--sage-green);
+    color: var(--cream);
+}
+
+.footer {
+    background-color: var(--dark-gray);
+    color: var(--cream);
+}
+
+.alert-success {
+    background-color: var(--light-sage);
+    border-color: var(--sage-green);
+    color: var(--dark-gray);
+}
+
+.alert-danger {
+    background-color: var(--brown);
+    border-color: var(--dark-gray);
+    color: var(--cream);
+}
